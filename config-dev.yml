@@ -1,5 +1,5 @@
 config:
- info: 输出啦  common on
+ info: 输出啦  common on myTest
 management:
   endpoints:
     web:
