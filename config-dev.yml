@@ -1,2 +1,7 @@
 config:
  info: 输出啦  common on
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
