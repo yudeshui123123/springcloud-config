@@ -1,5 +1,5 @@
 config:
- info: 输出啦  common on
+ info: 输出啦  common on baby
 spring:
   rabbitmq:
     host: 192.168.17.131
