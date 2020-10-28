@@ -1,7 +1,8 @@
 config:
  info: 输出啦  common on
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+spring:
+  rabbitmq:
+    host: 192.168.17.131
+    port: 5672
+    username: guest
+    password: guest
