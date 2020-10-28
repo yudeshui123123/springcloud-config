@@ -1,5 +1,5 @@
 config:
- info: common on baby ooo yyy
+ info: common on baby ooo yyy ddd
 spring:
   rabbitmq:
     host: 192.168.17.131
