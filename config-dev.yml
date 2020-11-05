@@ -1,6 +1,12 @@
 config:
  info: common on baby 222
 spring:
+  zipkin:
+    base-url: http://127.0.0.1:9411
+    sleuth:
+      sampler:
+        #采样率值为 0 -1 ，1表示全部采集
+        probability: 1
   rabbitmq:
     host: 192.168.17.131
     port: 5672
